@@ -62,5 +62,5 @@ jobs:
 
       - name: Build the hello-SESAME Docker image
         run: |
-          docker build . --tag ghcr.io/SESAME-Implementation-testing/hello-docker-sesame-demo:latest
-          docker push ghcr.io/SESAME-Implementation-testing/hello-docker-sesame-demo:latest
+          docker build . --tag ghcr.io/sesame-implementation-testing/hello-docker-sesame-demo:latest
+          docker push ghcr.io/sesame-implementation-testing/hello-docker-sesame-demo:latest
